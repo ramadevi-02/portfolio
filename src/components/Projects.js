@@ -35,7 +35,7 @@ export const Projects = () => {
                     {({isVisible}) => 
                      <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>Projects</h2>
-                    <p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+                    <p>Developed a responsive and user-friendly web application that integrates cutting-edge technologies to enhance functionality and streamline user interactions, resulting in improved performance and user satisfaction.</p>
    <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/projects">
                     <Nav.Item>
@@ -64,10 +64,21 @@ export const Projects = () => {
                         </Row>
                         </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                        <p>● Created a dynamic product listing page using React.js and Redux for state management.</p>
+                          <p> ● Integrated a mock API to fetch product data and implemented search and filter functionalities.</p>
+                          <p>● Utilized CSS Grid and Flexbox for a responsive layout.</p>
+                      <p>  ● Designed a user-friendly interface with responsive design principles.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>● Implemented a dynamic search and filter functionality to help users easily find specific compounds
+                      tailored to their research needs.</p>
+                      <p>● Created a dynamic product listing page using React.js and Redux for state management.</p>
+                      <p> ● Enhanced user experience by optimizing the application for performance, ensuring quick load times
+                      and smooth navigation..</p>
+                      <p> ● Collaborated with a team to integrate API endpoints for fetching up-to-date product information and
+                      availability..</p>
+                      <p>● Utilized responsive design principles to ensure compatibility across various devices and screensizes.</p>
+
                     </Tab.Pane>
                 
                    </Tab.Content>

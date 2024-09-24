@@ -621,3 +621,135 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+
+@media (max-width: 1200px) {
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .navbar-text button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav.navbar {
+    padding: 10px 0;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 14px;
+  }
+  .navbar-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/************ Banner Css ************/
+/* ... existing banner styles ... */
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 150px 0 60px 0;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+}
+
+/************ Skills Css ************/
+/* ... existing skills styles ... */
+
+@media (max-width: 768px) {
+  .skill {
+    padding: 20px 0;
+  }
+  .skill h2 {
+    font-size: 36px;
+  }
+  .skill p {
+    font-size: 16px;
+  }
+}
+
+/************ Projects Css ************/
+/* ... existing projects styles ... */
+
+@media (max-width: 768px) {
+  .project {
+    padding: 60px 0;
+  }
+  .project h2 {
+    font-size: 36px;
+  }
+  .project p {
+    width: 80%;
+  }
+}
+
+/************ Contact Css ************/
+/* ... existing contact styles ... */
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 0 100px 0;
+  }
+  .contact h2 {
+    font-size: 36px;
+  }
+  .contact form input, .contact form textarea {
+    font-size: 16px;
+  }
+  .contact form button {
+    font-size: 16px;
+    padding: 12px 36px;
+  }
+}
+
+/************ Footer Css ************/
+/* ... existing footer styles ... */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+  .newsletter-bx {
+    padding: 40px 20px;
+    margin: 0;
+  }
+  .footer img {
+    width: 50%;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+/************ Media Queries for Smaller Devices ************/
+
+@media (max-width: 480px) {
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 12px;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 14px;
+  }
+  .skill h2 {
+    font-size: 28px;
+  }
+  .project h2 {
+    font-size: 28px;
+  }
+  .contact h2 {
+    font-size: 28px;
+  }
+}
