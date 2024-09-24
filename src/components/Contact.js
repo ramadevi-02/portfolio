@@ -28,8 +28,8 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
 
-    const mailchimpUrl = `https://us22.api.mailchimp.com/3.0/lists/57af393d86/members/`;
-    const apiKey = 'e6a720c24fd051823ac4a44eb0bd24ff-us22'; 
+    const mailchimpUrl = `https://.api.ramayolo.com/3.0/lists/5786/members/`;
+    const apiKey = 'e6a720c24fd-abc3'; 
 
     const response = await fetch(mailchimpUrl, {
       method: "POST",
